@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html manifest="yhdet.appcache">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Oispa KaLussa!</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="title" content="Oispa KaLussa!">
+<meta name="description" content="Selvi&auml;tk&ouml; p&auml;ihdehuollon avulla Pirkasta Lasoliin? Alkoholinhuuruinen 2048-klooni.">
+<meta name="keywords" content="www.sis.uta.fi/~ar72757/yhdet, yhdet, viel&auml;, peli, pirkka, karhu, olut, viina, viini, gambina, valdemar, suomi, kossu, koskenkorva">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta property="og:title" content="Oispa KaLussa!" />
+  <meta property="og:url" content="http://www.oispakaljaa.com" />
+  <meta property="og:description" content="Selvi&auml;tk&ouml; p&auml;ihdehuollon avulla Pirkasta Lasoliin? Alkoholinhuuruinen 2048-klooni." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.oispakaljaa.com/img/og_katko.png" />
+  <meta property="og:image:type" content="image/png" />
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Oispa KaLussa!</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="doge-says">
+        <p></p>
+      </div>
+      <div class="katkoviesti">
+        <p></p>
+      </div>
+      <div class="info">
+        <!-- <div class="hide-info"><a>HIDE</a></div> -->
+        <br />
+       <p>Yhdistä ja juo samanlaiset juomat käyttämällä nuolinäppäimiä tai pyyhkäisyä. Yhdistyvät juomat tislautuvat yhdessä laadukkaammaksi juomaksi! Jokaisen heilautuksen jälkeen syntyy satunnaiseen paikkaan uusi sininen tai punainen Pirkka-olut. Kori ei saa täyttyä niin, että et voi enää liikuttaa juomia. Tiukan paikan tullen voit mennä katkolle, mutta vain jos olet tarpeeksi kännissä!
+Klinikalle otetaan sisään vain humalatilan ollessa yli 1000. Hoidossa pääsi selviää saman verran, ja kaverit juovat tällä välin kaikki irtokaljasi!</p>
+       <p>YHDET VIELÄ! by Antti R.<br />
+       <small>Pohjalla ja innostuksen lähteenä:<br /><a href="http://doge2048.com/" target="_blank">Doge2048</a> by Tiny Mammals.<br />
+       <a href="http://gabrielecirulli.github.io/2048/" target="_blank">2048</a> by Gabriele Cirulli.<br />Pirkka<3</small></p>
+<p>Tuotekuvat: Googlen kuvahaku. </p>
+
+<p>Äänet: <a href="http://www.freesound.org" target="_blank">http://www.freesound.org</a><br />
+<pre>
+Wine bottle opening - Cahors -
+Le Grand Coyrou Reserve - 2002.wav by Greg Baumont
+<br />Whisky Bottle (opening) by ultradust
+<br />Bottle Open Pour Fizz by AshFox
+<br />BeerCanOpening.aif by gleepglop
+<br />Beer bottles.wav by Akeroyc
+<br />Ambulance by saphe
+<br />sarahbuzzerb.mp3 by nofeedbak
+</pre>
+</p>
+
+      </div>
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Jatka peliä</a>
+          <a class="retry-button">Yritä uudestaan</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+      <div class="lower-container">
+    <div class="buttons-container">
+        <div class="katko-container katko-container-color">
+      <a TITLE="Mene TVT-tunnille. Menetät mielenterveyttä ja kamasi!" class="go-katko">TVT-TUNTI</a>
+    </div>
+        <div class="info-container">
+      <a TITLE="Tietoja pelistä" class="show-info">OHJEET</a>
+    </div>
+    </div>
+          <p class="game-explanation">
+       Yhdistä ja juo samanlaiset juomat ja kerää promillet!<br />
+       Auttavatko päihdepalvelut kestämään Lasoliin asti?!</p>
+      </div>
+      <div style="text-align: center; margin-top: 15px;">
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_score_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
