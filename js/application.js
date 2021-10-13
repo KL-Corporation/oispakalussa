@@ -5,9 +5,9 @@ window.requestAnimationFrame(function () {
 
 
     var imageList = [
-        "http://www.oispakaljaa.com/img/2.png",
-        "http://www.oispakaljaa.com/img/4.png",
-        "http://www.oispakaljaa.com/img/8.png",
+        "https://raw.githubusercontent.com/KL-Corporation/oispakalussa-assets/main/2.png",
+        "https://raw.githubusercontent.com/KL-Corporation/oispakalussa-assets/main/4.png",
+        "https://raw.githubusercontent.com/KL-Corporation/oispakalussa-assets/main/8.png",
         "http://www.oispakaljaa.com/img/16.png",
         "http://www.oispakaljaa.com/img/32.png",
         "http://www.oispakaljaa.com/img/64.png",
@@ -15,11 +15,11 @@ window.requestAnimationFrame(function () {
         "http://www.oispakaljaa.com/img/256.png",
         "http://www.oispakaljaa.com/img/512.png",
         "http://www.oispakaljaa.com/img/1024.png",
-        "http://www.oispakaljaa.com/img/2048.png",
+        "https://raw.githubusercontent.com/KL-Corporation/oispakalussa-assets/main/2048.png",
 	"http://www.oispakaljaa.com/img/katko.png"
 
     ];
-    for(var i = 0; i < imageList.length; i++ ) 
+    for(var i = 0; i < imageList.length; i++ )
     {
         var imageObject = new Image();
         imageObject.src = imageList[i];
