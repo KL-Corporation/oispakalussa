@@ -8,15 +8,15 @@ window.requestAnimationFrame(function () {
         "https://www.oispakalussa.tk/img/2.png",
         "https://www.oispakalussa.tk/img/4.png",
         "https://www.oispakalussa.tk/img/8.png",
-        "http://www.oispakaljaa.com/img/16.png",
-        "http://www.oispakaljaa.com/img/32.png",
-        "http://www.oispakaljaa.com/img/64.png",
-        "http://www.oispakaljaa.com/img/128.png",
-        "http://www.oispakaljaa.com/img/256.png",
-        "http://www.oispakaljaa.com/img/512.png",
-        "http://www.oispakaljaa.com/img/1024.png",
+        "http://www.oispakalussa.tk/img/16.png",
+        "http://www.oispakalussa.tk/img/32.png",
+        "http://www.oispakalussa.tk/img/64.png",
+        "http://www.oispakalussa.tk/img/128.png",
+        "http://www.oispakalussa.tk/img/256.png",
+        "http://www.oispakalussa.tk/img/512.png",
+        "http://www.oispakalussa.tk/img/1024.png",
         "https://www.oispakalussa.tk/img/2048.png",
-	"http://www.oispakaljaa.com/img/katko.png"
+	"http://www.oispakalussa.tk/img/katko.png"
 
     ];
     for(var i = 0; i < imageList.length; i++ )

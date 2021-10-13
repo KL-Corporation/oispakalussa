@@ -236,7 +236,7 @@ HTMLActuator.prototype.goKatko = function () {
 
     //var message = "KATKOLLE!";
     var messageElement = document.createElement("img");
-    messageElement.setAttribute('src',"/img/katko.png");
+    messageElement.setAttribute('src',"https://www.oispakalussa.tk/img/katko.png");
     //messageElement.textContent = message;
     //var left = 'left: 37%;';
     //var top = 'top: 10%;';
