@@ -16,7 +16,12 @@ function HTMLActuator() {
 dogeSayings = [
   'TI-Nspire™ CX CAS Student Software',
   'SpeedCrunch!!',
-  'Abitti D:'
+  'Abitti D:',
+  'Korsuvaluuttaa!!',
+  'Ruokailu!',
+  'Köksää!',
+  'Kymppi tulee!',
+  'Kurssista läpi!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
