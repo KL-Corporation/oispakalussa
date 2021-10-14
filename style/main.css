@@ -705,6 +705,14 @@ hr {
   text-align: center;
   font-size: 14px;}
 
+/* CUSTOM (not a part of oispakaljaa) */
+.site-visitors {
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 480px) {
   html, body {
     font-size: 15px; }
