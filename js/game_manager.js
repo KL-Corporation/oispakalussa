@@ -49,8 +49,8 @@ GameManager.prototype.goKatko = function () {
       
   }
   else {
-      //ei tarpeeksi kännissä katkolle!
-     // alert("Olet ihan liian selvin päin katkolle!");
+      //ei tarpeeksi mielenterveyttä TVT-tunnille!
+     // alert("Et ole psyykkisesti tarpeeksi terve TVT-tunnille!");
          snd = new Audio("/buzz.mp3");  
     snd.play();
   }
