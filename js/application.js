@@ -8,7 +8,7 @@ window.requestAnimationFrame(function () {
         "https://www.oispakalussa.tk/img/2.png",
         "https://www.oispakalussa.tk/img/4.png",
         "https://www.oispakalussa.tk/img/8.png",
-        "http://www.oispakalussa.tk/img/16.png",
+        "https://www.oispakalussa.tk/img/16.png",
         "http://www.oispakalussa.tk/img/32.png",
         "http://www.oispakalussa.tk/img/64.png",
         "http://www.oispakalussa.tk/img/128.png",
