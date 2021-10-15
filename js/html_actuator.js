@@ -20,10 +20,11 @@ dogeSayings = [
   'Korsuvaluuttaa!!',
   'Ruokailu!',
   'Köksää!',
+  'Matikkaa!',
   'Kymppi tulee!',
   'Kurssista läpi!',
   'Fysiikan tunnille!',
-  'Keskiarvo nousee!',
+  'Keskiarvo nousee!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
