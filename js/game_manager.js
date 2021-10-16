@@ -9,10 +9,10 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
-  this.inputManager.on("showInfo", this.showInfo.bind(this));  
-  this.inputManager.on("hideInfo", this.hideInfo.bind(this));   
-  this.inputManager.on("goKatko", this.goKatko.bind(this));   
-  
+  this.inputManager.on("showInfo", this.showInfo.bind(this));
+  this.inputManager.on("hideInfo", this.hideInfo.bind(this));
+  this.inputManager.on("goKatko", this.goKatko.bind(this));
+
   this.setup();
 }
 
@@ -29,7 +29,7 @@ GameManager.prototype.keepPlaying = function () {
 };
 
 GameManager.prototype.showInfo = function () {
-    
+
   this.actuator.showInfo();
 };
 
@@ -42,20 +42,20 @@ GameManager.prototype.goKatko = function () {
   if (this.score > 1000) {
       this.score -= 1000;
     this.grid.katkoReissu();
-        this.actuate();  
+        this.actuate();
         this.actuator.goKatko();
-          
-      
-      
+
+
+
   }
   else {
       //ei tarpeeksi mielenterveyttä TVT-tunnille!
      // alert("Et ole psyykkisesti tarpeeksi terve TVT-tunnille!");
-         snd = new Audio("/buzz.mp3");  
+    snd = new Audio("/snd/buzz.mp3"); // Path changed -NAL
     snd.play();
   }
-  
-  
+
+
 };
 
 GameManager.prototype.isGameTerminated = function () {
@@ -74,16 +74,18 @@ GameManager.prototype.setup = function () {
   this.over        = false;
   this.won         = false;
   this.keepPlaying = false;
-  
+
     //preload
+    /* TODO: Add these sounds back -NAL
     snd = [];
     snd[0] = new Audio("/none1.mp3");
     snd[1] = new Audio("/none2.mp3");
     snd[2] = new Audio("/none3.mp3");
+    */
 
   // Add the initial tiles
   this.addStartTiles();
-  
+
   // Update the actuator
   this.actuate();
 };
@@ -177,7 +179,7 @@ GameManager.prototype.move = function (direction) {
 
           // Update the score
           self.score += merged.value;
-            
+
           // The mighty 2048 tile
           if (merged.value === 2048) self.won = true;
         } else {

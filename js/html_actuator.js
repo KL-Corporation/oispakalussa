@@ -195,7 +195,7 @@ HTMLActuator.prototype.updateScore = function (score) {
 
       }
 
-  snd.play();
+  // snd.play(); TODO: Add these sounds back -NAL
 };
 
 HTMLActuator.prototype.updateBestScore = function (bestScore) {
@@ -232,8 +232,11 @@ HTMLActuator.prototype.hideInfo = function () {
 
 HTMLActuator.prototype.goKatko = function () {
 
+    /* Add these sounds back -NAL
     snd = new Audio("/audio/katkolle.mp3");
     snd.play();
+    */
+
     this.clearContainer(this.scoreContainer);
     this.clearContainer(this.katkoViesti);
     this.clearContainer(this.dogeSays);
