@@ -232,7 +232,7 @@ HTMLActuator.prototype.hideInfo = function () {
 
 HTMLActuator.prototype.goKatko = function () {
 
-    /* Add these sounds back -NAL
+    /* TODO: Add these sounds back -NAL
     snd = new Audio("/audio/katkolle.mp3");
     snd.play();
     */
