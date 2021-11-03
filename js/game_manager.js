@@ -51,7 +51,7 @@ GameManager.prototype.goKatko = function () {
   else {
       //ei tarpeeksi mielenterveyttä TVT-tunnille!
      // alert("Et ole psyykkisesti tarpeeksi terve TVT-tunnille!");
-    snd = new Audio("/snd/buzz.mp3"); // Path changed -NAL
+    snd = new Audio("https://www.oispakalussa.tk/snd/buzz.mp3");
     snd.play();
   }
 
@@ -78,9 +78,9 @@ GameManager.prototype.setup = function () {
     //preload
     /* TODO: Add these sounds back -NAL
     snd = [];
-    snd[0] = new Audio("/none1.mp3");
-    snd[1] = new Audio("/none2.mp3");
-    snd[2] = new Audio("/none3.mp3");
+    snd[0] = new Audio("https://www.oispakalussa.tk/snd/none1.mp3");
+    snd[1] = new Audio("https://www.oispakalussa.tk/snd/none2.mp3");
+    snd[2] = new Audio("https://www.oispakalussa.tk/snd/none3.mp3");
     */
 
   // Add the initial tiles

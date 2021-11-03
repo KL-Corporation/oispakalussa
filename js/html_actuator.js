@@ -151,16 +151,16 @@ HTMLActuator.prototype.updateScore = function (score) {
 
                 var a =  Math.floor((Math.random() * 4) + 1);
             if (a == 1) {
-                snd = new Audio("/open1.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/open1.mp3");
             }
             if (a == 2) {
-                snd = new Audio("/open2.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/open2.mp3");
             }
             if (a == 3) {
-                snd = new Audio("/open3.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/open3.mp3");
             }
             if (a == 4) {
-                snd = new Audio("/open4.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/open4.mp3");
             }
 
     var addition = document.createElement("div");
@@ -184,13 +184,13 @@ HTMLActuator.prototype.updateScore = function (score) {
       {
             var a =  Math.floor((Math.random() * 3) + 1);
             if (a == 1) {
-                snd = new Audio("/none1.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/none1.mp3");
             }
             if (a == 2) {
-                snd = new Audio("/none2.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/none2.mp3");
             }
             if (a == 3) {
-                snd = new Audio("/none3.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/none3.mp3");
             }
 
 
@@ -234,7 +234,7 @@ HTMLActuator.prototype.hideInfo = function () {
 HTMLActuator.prototype.goKatko = function () {
 
     /* TODO: Add these sounds back -NAL
-    snd = new Audio("/audio/katkolle.mp3");
+    snd = new Audio("https://www.oispakalussa.tk/snd/katkolle.mp3");
     snd.play();
     */
 

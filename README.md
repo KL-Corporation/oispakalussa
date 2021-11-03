@@ -1,0 +1,12 @@
+### TODO:
+- [ ] ./img/512.png
+- [ ] ./img/katko.png
+- [ ] ./img/og_katko.png
+- [ ] ./snd/katkolle.mp3
+- [ ] ./snd/none1.mp3
+- [ ] ./snd/none2.mp3
+- [ ] ./snd/none3.mp3
+- [ ] ./snd/open1.mp3
+- [ ] ./snd/open2.mp3
+- [ ] ./snd/open3.mp3
+- [ ] ./snd/open4.mp3
