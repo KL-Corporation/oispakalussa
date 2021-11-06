@@ -1,7 +1,7 @@
 ### TODO:
-- [ ] ./img/512.png
-- [ ] ./img/katko.png
-- [ ] ./img/og_katko.png
+- [x] ./img/512.png
+- [x] ./img/katko.png
+- [ ] ./img/og.png
 - [ ] ./snd/katkolle.mp3
 - [ ] ./snd/none1.mp3
 - [ ] ./snd/none2.mp3
