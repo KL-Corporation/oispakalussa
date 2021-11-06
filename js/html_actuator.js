@@ -243,10 +243,8 @@ HTMLActuator.prototype.hideInfo = function () {
 
 HTMLActuator.prototype.goKatko = function () {
 
-    /* TODO: Add these sounds back -NAL
-    snd = new Audio("https://www.oispakalussa.tk/snd/katkolle.mp3");
+    snd = new Audio("https://www.oispakalussa.tk/snd/katkolle.ogg");
     snd.play();
-    */
 
     this.clearContainer(this.scoreContainer);
     this.clearContainer(this.katkoViesti);

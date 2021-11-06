@@ -2,7 +2,7 @@
 # Does not work on Linux due to case-sensitive paths.
 
 import os
-from typing import List, Set
+from typing import Set
 
 asset_folders = ("img", "snd")
 urls = [f"oispakalussa.tk/{x}" for x in asset_folders]

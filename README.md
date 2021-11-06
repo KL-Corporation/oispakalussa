@@ -2,7 +2,7 @@
 - [x] ./img/512.png
 - [x] ./img/katko.png
 - [x] ./img/og_katko.png
-- [ ] ./snd/katkolle.mp3
+- [x] ./snd/katkolle.ogg
 - [ ] ./snd/none1.mp3
 - [ ] ./snd/none2.mp3
 - [ ] ./snd/none3.mp3
