@@ -17,17 +17,23 @@ dogeSayings = [
   'TI-Nspire™ CX CAS Student Software',
   'SpeedCrunch!!',
   'Abitti D:',
+  'Kertun Kellari <3',
+
   'Korsuvaluuttaa!!',
-  'Ruokailu!',
-  'Köksää!',
-  'Matikkaa!',
+  'Nostan ykköskenttään!',
+  'Annan ison käden!',
+
   'Kymppi tulee!',
   'Kurssista läpi!',
-  'Fysiikan tunnille!',
   'Keskiarvo nousee!',
   'Helppoo ku mikä!',
   'Isänmaan tulevaisuus!',
-  'Nostan ykköskenttään!'
+
+  'Köksää!',
+  'Matikkaa!',
+  'Ruotsia ┌∩┐(ಠ_ಠ)┌∩┐',
+  'Ruokailu!',
+  'Fysiikan tunnille!',
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
@@ -204,7 +210,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var type    = won ? "game-won" : "game-over";
+  var type    = won ? "game-won"  : "game-over";
   var message = won ? "Laudatur!" : "Mene Amikseen!";
 
   this.messageContainer.classList.add(type);

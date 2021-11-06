@@ -45,11 +45,11 @@ for file_index, file in enumerate(files):
                 tmp_found_end_1 = len(content) + 1
             if tmp_found_end_2 == -1:
                 tmp_found_end_2 = len(content) + 1
-            tmp_found_end = min(tmp_found_end_1, tmp_found_end_2)
-            assert tmp_found_end != len(content) + 1
+            found_end = min(tmp_found_end_1, tmp_found_end_2)
+            assert found_end != len(content) + 1
 
-            url = content[found_pos:tmp_found_end]
-            min_index = tmp_found_end
+            url = content[found_pos:found_end]
+            min_index = found_end
 
             path = url.replace("oispakalussa.tk", ".")
             if not os.path.isfile(path):
