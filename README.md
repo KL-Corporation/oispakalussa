@@ -1,12 +1,2 @@
 ### TODO:
-- [x] ./img/512.png
-- [x] ./img/katko.png
-- [x] ./img/og_katko.png
-- [x] ./snd/katkolle.ogg
-- [ ] ./snd/none1.mp3
-- [ ] ./snd/none2.mp3
-- [ ] ./snd/none3.mp3
-- [ ] ./snd/open1.mp3
-- [ ] ./snd/open2.mp3
-- [ ] ./snd/open3.mp3
-- [ ] ./snd/open4.mp3
+See: (Add missing features)[https://github.com/KL-Corporation/oispakalussa/issues/1]
