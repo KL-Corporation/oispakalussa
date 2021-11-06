@@ -14,26 +14,30 @@ function HTMLActuator() {
 }
 
 dogeSayings = [
+  // Matikka ja Mielipiteet
   'TI-Nspire™ CX CAS Student Software',
   'SpeedCrunch!!',
   'Abitti D:',
   'Kertun Kellari <3',
 
+  // Biologia
   'Korsuvaluuttaa!!',
   'Nostan ykköskenttään!',
   'Annan ison käden!',
 
+  // Huudahduksia
   'Kymppi tulee!',
   'Kurssista läpi!',
   'Keskiarvo nousee!',
   'Helppoo ku mikä!',
   'Isänmaan tulevaisuus!',
 
+  // Tunteja
   'Köksää!',
   'Matikkaa!',
   'Ruotsia ┌∩┐(ಠ_ಠ)┌∩┐',
   'Ruokailu!',
-  'Fysiikan tunnille!',
+  'Fysiikan tunnille!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
