@@ -76,12 +76,10 @@ GameManager.prototype.setup = function () {
   this.keepPlaying = false;
 
     //preload
-    /* TODO: Add these sounds back -NAL
     snd = [];
     snd[0] = new Audio("https://www.oispakalussa.tk/snd/none1.mp3");
     snd[1] = new Audio("https://www.oispakalussa.tk/snd/none2.mp3");
     snd[2] = new Audio("https://www.oispakalussa.tk/snd/none3.mp3");
-    */
 
   // Add the initial tiles
   this.addStartTiles();
