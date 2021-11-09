@@ -1,2 +1,4 @@
-### TODO:
-See: [Add missing features](https://github.com/KL-Corporation/oispakalussa/issues/1)
+# Oispa Kalussa!
+Saatko kirjoitettua laudaturin? KaLu-teemainen oispakaljaa-klooni.
+
+Pelaa [täällä](https://oispakalussa.tk/)!
