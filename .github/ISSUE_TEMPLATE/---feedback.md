@@ -1,6 +1,6 @@
 ---
 name: "\U0001F4AC Feedback"
-about: Give some general feedback about Koponen Dating Simulator.
+about: Give some general feedback about Oispa KaLussa!
 title: ''
 labels: feedback
 assignees: ''

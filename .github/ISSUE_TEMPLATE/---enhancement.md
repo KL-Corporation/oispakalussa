@@ -1,6 +1,6 @@
 ---
 name: "\U0001F4A1 Enhancement"
-about: Suggest an idea to improve Koponen Dating Simulator.
+about: Suggest an idea to improve Oispa KaLussa!
 title: ''
 labels: enhancement
 assignees: ''
