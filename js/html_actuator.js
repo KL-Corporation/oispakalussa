@@ -159,20 +159,7 @@ HTMLActuator.prototype.updateScore = function (score) {
 
   if (difference > 0) {
 
-            // Collision sounds
-            var a =  Math.floor((Math.random() * 4) + 1);
-            if (a == 1) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide/page_turning.ogg");
-            }
-            if (a == 2) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide/pencil_scribble.ogg");
-            }
-            if (a == 3) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide3.mp3"); // TODO: Add sound
-            }
-            if (a == 4) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide4.mp3"); // TODO: Add sound
-            }
+    snd = new Audio("https://www.oispakalussa.tk/snd/pen/pencil_scribble" + Math.floor(Math.random() * 3).toString() + ".ogg")
 
     var addition = document.createElement("div");
     addition.classList.add("score-addition");
@@ -191,21 +178,11 @@ HTMLActuator.prototype.updateScore = function (score) {
     messageElement.setAttribute('style', styleString);
     this.dogeSays.appendChild(messageElement);
 
-  } else
-      {
-            var a =  Math.floor((Math.random() * 3) + 1);
-            if (a == 1) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/none1.mp3");
-            }
-            if (a == 2) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/none2.mp3");
-            }
-            if (a == 3) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/none3.mp3");
-            }
-
-
-      }
+  }
+  else
+  {
+    snd = new Audio("https://www.oispakalussa.tk/snd/paper/page_turning" + Math.floor(Math.random() * 3).toString() + ".ogg");
+  }
 
   snd.play();
 };

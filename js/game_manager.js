@@ -77,9 +77,9 @@ GameManager.prototype.setup = function () {
 
     //preload
     snd = [];
-    snd[0] = new Audio("https://www.oispakalussa.tk/snd/none1.mp3");
-    snd[1] = new Audio("https://www.oispakalussa.tk/snd/none2.mp3");
-    snd[2] = new Audio("https://www.oispakalussa.tk/snd/none3.mp3");
+    snd[0] = new Audio("https://www.oispakalussa.tk/snd/paper/page_turning0.ogg");
+    snd[1] = new Audio("https://www.oispakalussa.tk/snd/paper/page_turning1.ogg");
+    snd[2] = new Audio("https://www.oispakalussa.tk/snd/paper/page_turning2.ogg");
 
   // Add the initial tiles
   this.addStartTiles();
