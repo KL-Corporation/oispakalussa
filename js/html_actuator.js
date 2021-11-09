@@ -159,18 +159,19 @@ HTMLActuator.prototype.updateScore = function (score) {
 
   if (difference > 0) {
 
-                var a =  Math.floor((Math.random() * 4) + 1);
+            // Collision sounds
+            var a =  Math.floor((Math.random() * 4) + 1);
             if (a == 1) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide1.ogg");
+                snd = new Audio("https://www.oispakalussa.tk/snd/collide/page_turning.ogg");
             }
             if (a == 2) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide2.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/collide/pencil_scribble.ogg");
             }
             if (a == 3) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide3.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/collide3.mp3"); // TODO: Add sound
             }
             if (a == 4) {
-                snd = new Audio("https://www.oispakalussa.tk/snd/collide4.mp3");
+                snd = new Audio("https://www.oispakalussa.tk/snd/collide4.mp3"); // TODO: Add sound
             }
 
     var addition = document.createElement("div");
