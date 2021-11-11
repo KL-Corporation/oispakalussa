@@ -33,6 +33,9 @@ dogeSayings = [
   'Helppoo ku mikä!',
   'Isänmaan tulevaisuus!',
 
+  //??
+  'Kynä tippuu',
+
   // Tunteja
   'Köksää!',
   'Matikkaa!',
