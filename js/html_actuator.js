@@ -19,6 +19,7 @@ dogeSayings = [
   'SpeedCrunch!!',
   'Abitti D:',
   'Kertun Kellari <3',
+  'Tenkku <3',
 
   // Biologia
   'Korsuvaluuttaa!!',
@@ -35,7 +36,7 @@ dogeSayings = [
   // Tunteja
   'Köksää!',
   'Matikkaa!',
-  'Ruotsia ┌∩┐(ಠ_ಠ)┌∩┐',
+  'Ruåtsia ┌∩┐(ಠ_ಠ)┌∩┐',
   'Ruokailu!',
   'Fysiikan tunnille!'
 ]
