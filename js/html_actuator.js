@@ -35,6 +35,7 @@ dogeSayings = [
 
   // ?? --- ??
   'Kynä tippuu!',
+  'Baby steps!',
 
   // Tunteja
   'Köksää!',
