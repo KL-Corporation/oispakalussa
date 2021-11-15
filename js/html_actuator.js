@@ -14,11 +14,12 @@ function HTMLActuator() {
 }
 
 dogeSayings = [
-  // Matikka ja Mielipiteet
+  // Matikka, Fysiikka ja Mielipiteet
   'TI-Nspire™ CX CAS Student Software',
   'SpeedCrunch!!',
   'Abitti D:',
-  'Kertun Kellari <3',
+  'Logger Pro!',
+  'Kertun Kellari <3', // Kuka on kerttu, ja miksi me syömme hänen kellarissa?
   'Tenkku <3',
 
   // Biologia
