@@ -43,7 +43,8 @@ dogeSayings = [
   'Matikkaa!',
   'Ruåtsia ┌∩┐(ಠ_ಠ)┌∩┐',
   'Ruokailu!',
-  'Fysiikan tunnille!'
+  'Fysiikan tunnille!',
+  'Kuvista!'
 ]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
