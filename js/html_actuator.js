@@ -15,17 +15,18 @@ function HTMLActuator() {
 
 dogeSayings = [
   // Matikka, Fysiikka ja Mielipiteet
-  'TI-Nspire™ CX CAS Student Software',
-  'SpeedCrunch!!',
+  'TI-Nspire™ CX CAS Student Software', // Hyi helkkari
+  'SpeedCrunch!!', // 32-bittiset floating point valuet go brrrrrrr
   'Abitti D:',
   'Logger Pro!',
   'Kertun Kellari <3', // Kuka on kerttu, ja miksi me syömme hänen kellarissa?
-  'Tenkku <3',
+  'Tenkku <3', // (Alunperin väännetty sanasta: 'runkku')
 
-  // Biologia
+  // Korsu sayings
   'Korsuvaluuttaa!!',
   'Nostan ykköskenttään!',
   'Annan ison käden!',
+  'Lisään avauskokoonpanoon!',
 
   // Huudahduksia
   'Kymppi tulee!',
