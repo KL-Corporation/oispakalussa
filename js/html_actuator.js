@@ -18,6 +18,7 @@ dogeSayings = [
   'TI-Nspire™ CX CAS Student Software', // Hyi helkkari
   'SpeedCrunch!!', // 32-bittiset floating point valuet go brrrrrrr // Eikös 32-bittisillä floateilla tuu aika isoja laskuvirheitä?
   'Abitti D:',
+  'Google Docs :(',
   'Logger Pro!',
   'Kertun Kellari <3', // Kuka on kerttu, ja miksi me syömme hänen kellarissa?
   'Tenkku <3', // (Alunperin väännetty sanasta: 'runkku') // Onkohan?
@@ -33,8 +34,8 @@ dogeSayings = [
   'Kymppi tulee!', // Ihan varmaan
   'Kurssista läpi!',
   'Keskiarvo nousee!',
-  'Helppoo ku mikä!', // Ja p@sk@t
-  'Isänmaan tulevaisuus!', 
+  'Helppoo ku mikä!', // Ja paskat
+  'Isänmaan tulevaisuus!',
 
   // ?? --- ??
   'Kynä tippuu!', // Onko tää Pitkäsen juttu?
