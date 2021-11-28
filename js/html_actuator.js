@@ -15,12 +15,14 @@ function HTMLActuator() {
 
 dogeSayings = [
   // Matikka, Fysiikka ja Mielipiteet
-  'TI-Nspire™ CX CAS Student Software', // Hyi helkkari
-  'SpeedCrunch!!', // 32-bittiset floating point valuet go brrrrrrr
+  'TI-Nspire™ CX CAS Student Software', // Hyi helkkari // Joo Texas Instruments sais hommata parempia koodareita, ja ne sais tehdä TI-Nspire CX CAS Student Softwareen latex-supportin, koska TI-Nspire CX CAS Student Softwaren inbuilt kaavaeditori on ihan paskanen.
+  'SpeedCrunch!!', // 32-bittiset floating point valuet go brrrrrrr // Eikös 32-bittisillä floateilla tuu aika isoja laskuvirheitä?
   'Abitti D:',
+  'Google Docs :(', // NALStudio ei jostain syystä tykkää, mutta yleinen mielipide on kuitenkin se, että Google Docs on oikein hyvä.
   'Logger Pro!',
   'Kertun Kellari <3', // Kuka on kerttu, ja miksi me syömme hänen kellarissa?
-  'Tenkku <3', // (Alunperin väännetty sanasta: 'runkku')
+  'Tenkku <3', // (Alunperin väännetty sanasta: 'runkku') // Onkohan?
+  'Matematiikan pitkä oppimäärä!',
 
   // Korsu sayings
   'Korsuvaluuttaa!!',
@@ -29,15 +31,15 @@ dogeSayings = [
   'Lisään avauskokoonpanoon!',
 
   // Huudahduksia
-  'Kymppi tulee!',
+  'Kymppi tulee!', // Ihan varmaan
   'Kurssista läpi!',
   'Keskiarvo nousee!',
-  'Helppoo ku mikä!',
+  'Helppoo ku mikä!', // Ja paskat
   'Isänmaan tulevaisuus!',
 
   // ?? --- ??
-  'Kynä tippuu!',
-  'Vauvanaskelia!',
+  'Kynä tippuu!', // Onko tää Pitkäsen juttu?
+  'Vauvanaskelia!', // Mitä tää edes tarkoittaa?
 
   // Tunteja
   'Köksää!',
