@@ -21,7 +21,7 @@ window.fakeStorage = {
 function LocalScoreManager() {
   this.key     = "bestScore";
 
-  var supported = false; // this.localStorageSupported();
+  var supported = this.localStorageSupported();
   this.storage = supported ? window.localStorage : window.fakeStorage;
 }
 
