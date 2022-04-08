@@ -48,7 +48,7 @@ dogeSayings = [
   'Ruokailu!',
   'Fysiikan tunnille!',
   'Kuvista!'
-] // Pippeli
+]
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
   var self = this;
