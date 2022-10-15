@@ -64,7 +64,7 @@ for file_index, file in enumerate(files):
             url_column = found_pos - max(content.rfind("\n", 0, found_pos), 0)
             min_index = found_end
 
-            path = url.replace("oispakalussa.tk", ".")
+            path = url #.replace("(o)ispakalussa.tk", ".")  parenthesis around 0 to remove it from search
             if path in path_overrides:
                 path = path_overrides[path]
             if not os.path.isfile(path):
