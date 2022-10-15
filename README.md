@@ -1,4 +1,4 @@
 # Oispa KaLussa!
 Saatko kirjoitettua laudaturin? KaLu-teemainen oispakaljaa-klooni.
 
-Pelaa [täällä](https://oispakalussa.tk/)!
+Pelaa (väliaikaisesti) [täällä](https://kl-corporation.github.io/oispakalussa/)!
