@@ -1,6 +1,15 @@
 ### WINDOWS ONLY ###
 # Does not work on Linux due to case-sensitive paths.
 
+# This script is useless nowadays and most likely broken.
+# This script was used in development to verify that all oispa kaljaa assets were replaced with our custom assets.
+# We left this script in the source code as it was an easy way to distinguish which repos have stolen our source code without attribution.
+# We are more than happy to let you use "our" source code, just please attribute us, thanks :)
+
+# "our" source code A.K.A Antti R's code extracted from oispakaljaa.com website and modified a bit.
+
+# If you have forked/copied this repo, you can leave this file as-is. It doesn't harm anyone, just takes up a small amount of space.
+
 import os
 from typing import Dict, Iterable, List, Set, Tuple
 
