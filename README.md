@@ -1,9 +1,13 @@
 # Oispa KaLussa!
 Saatko kirjoitettua laudaturin? KaLu-teemainen oispakaljaa-klooni.
 
-Pelaa (~~väliaikaisesti~~ pysyvästi) [täällä](https://kl-corporation.github.io/oispakalussa/)!
-<br />
-<br />
+Pelaa [täällä](https://kl-corporation.github.io/oispakalussa/)!
+
+## Epäviralliset julkaisut
+Tästä pelistä pyöritetään epävirallista kopiota neocities-nimisellä sivulla.
+Emme omista tätä sivua emmekä ole yhteydessä sivuston ylläpitäjään @Sorsamies10, joka myös päätti näköjään poistaa kaikki krediitit meihin, voi kiitos tästä. 😒
+
+**Koska meillä ei ole kontrollia sivustosta, emme voi taata, että se on turvallinen.** Virusten sekä muiden uhkien takia emme suosittele tämän nettisivun käyttöä.
 
 ## Lähdekoodin käyttöehdot
 _Oispa KaLussa_ -nettisivun **lähdekoodi** on täysin avointa. Huomioi kuitenkin, että ison osan koodin tekijänoikeuksista omistaa Antti R.
